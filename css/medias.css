@@ -1,0 +1,84 @@
+
+@media(max-width: 428px) {
+
+    body {
+      width: 100%;
+      height: 100vh;
+    }
+
+
+    .logo {
+      width: 40%;
+      margin-left: 10%;
+    }
+    
+    nav {
+      display: none;
+    }
+  
+    .hamburguer {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-right: 10%;
+    }
+
+    
+    .banner {
+      
+      height: 60vh;
+    }
+
+    .titulo{
+      align-self: center;
+    }
+
+    h1 {
+      height: 10vh;
+      font-size: 1.5rem;
+      
+    }
+
+    .frueverd {
+      width: 100%;
+    }
+
+    .fruit {
+      width: 5%;
+      height: 5vh;
+    }
+
+    .texto {
+      font-size: 1rem;
+      height: 70vh;
+      flex-grow: 1;
+    }
+
+    .referencia {
+      margin-top: none;
+      font-size: 0.85rem;
+    }
+
+    iframe {
+      height: 50vh;
+    }
+
+    footer {
+      height: 80vh;
+      font-size: 0.85rem;
+    }
+
+    .inicial-footer {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      justify-content: space-around;
+      
+      align-items: center;
+      text-align: center;
+    }
+
+       
+
+}
